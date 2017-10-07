@@ -1,0 +1,28 @@
+{
+  "name": "my_portfolio_flexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "jquery-cycle-2": "^1.0.3"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.3",
+    "serve": "^6.0.3",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "rimraf dist && webpack -p --colors --progress",
+    "start": "serve dist -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
